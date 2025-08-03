@@ -13,9 +13,9 @@
           <strong>Location:</strong> <%= listing.location %>, <%= listing.country %>
         </p>
 
-        <a href="/listings/<%= listing._id %>/edit" class="btn btn-primary me-2">Edit</a>
+        <a href="/listings/<%= listing._id %>/edit" class="btn add-btn me-2">Edit</a>
         <form method="POST" action="/listings/<%= listing._id %>?_method=DELETE" class="d-inline">
-          <button class="btn btn-danger">Delete</button>
+          <button class="btn btn-dark">Delete</button>
         </form>
       </div>
     </div>
